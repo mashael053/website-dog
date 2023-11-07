@@ -1,0 +1,286 @@
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+.rover-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  width: 8rem;
+}
+.rover-header-left,
+.rover-header-right {
+  display: flex;
+  gap: 1rem;
+}
+header a {
+  text-decoration: none;
+  color: rgb(69, 72, 72);
+}
+
+.nav-bar {
+  display: none;
+}
+.hero-title {
+  width: 19rem;
+}
+
+
+.rover-hero-container {
+  text-align: left;
+  padding: 8rem;
+  background-image: url("https://st2.depositphotos.com/1072614/9672/i/600/depositphotos_96723200-stock-photo-young-girl-is-resting-with.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rover-hero-container h1 {
+  margin-bottom: 3rem;
+}
+.rover-middle-section {
+  padding: 20px;
+}
+.rover-middle-section h2 {
+  text-align: center;
+  margin: 2rem;
+}
+.rover-mobile-hero-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.rover-mobile-hero {
+  border-radius: 15%;
+  width: 200px;
+  margin: auto;
+}
+
+.rover-facts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.rover-fact-indiv {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rover-fact-indiv h3 {
+  margin-bottom: 1rem;
+}
+.rover-fact-indiv img {
+  max-width: 70px;
+}
+.factandboxContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.factandboxContainer section {
+  width: 50%;
+}
+.rover-cta-box {
+  border: solid 0.5px lightgreen;
+}
+
+.rover-cta-box header {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.rover-cta-box img {
+  max-width: 30px;
+}
+.rover-facts {
+  padding: 4rem;
+  line-height: 3rem;
+  list-style: none;
+}
+
+.rover-cta {
+  background-color: #00bd70;
+  padding: 0.7rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 1rem;
+}
+.rover-protections {
+  text-align: center;
+  padding: 1.4rem;
+}
+.rover-action-shot {
+  background-image: url("https://st.depositphotos.com/1036367/59690/i/600/depositphotos_596901844-stock-photo-happy-curly-woman-tilts-head.jpg");
+  height: 300px;
+  background-size: cover;
+}
+
+.rover-action-quote-container {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.rover-123-container {
+  padding: 2rem;
+}
+.rover-123-container h2 {
+  text-align: center;
+}
+.rover-123-item-container {
+  display: flex;
+  gap: 2rem;
+  align-content: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.rover-123-item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rover-123-item img {
+  max-width: 60px;
+  max-height: 80px;
+}
+.rover-action-shot {
+  background-image: url("https://st.depositphotos.com/1036367/59690/i/600/depositphotos_596901844-stock-photo-happy-curly-woman-tilts-head.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  height: 30rem;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.rover-action-quote-container {
+  background-color: white;
+  padding: 20px;
+  max-width: 300px;
+  margin-left: 5%;
+  margin-top: -20rem;
+  border: #00bd70 solid 0.7px;
+}
+
+.rover-action-dash {
+  color: #00bd70;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.rover-quote {
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.rover-quote span {
+  display: block;
+  font-weight: bold;
+}
+
+.rover-call-to-action {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.learn-more-link {
+  color: #00bd70;
+  text-decoration: none;
+  padding: 3px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .rover-action-quote-container {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .rover-action-shot {
+    justify-content: center;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .rover-action-quote-container {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .rover-action-shot {
+    justify-content: center;
+    height: auto;
+  }
+
+  .rover-facts-container {
+    flex-direction: column;
+  }
+  .factandboxContainer section {
+    width: 100%;
+  }
+  .nav-bar {
+    display: block;
+  }
+
+  .factandboxContainer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .rover-header-left,
+  .rover-header-right {
+    display: none;
+  }
+  .rover-action-quote-container {
+    margin: 0;
+  }
+  .rover-123-item-container {
+    flex-direction: column;
+  }
+  .rover-facts {
+    padding: 1rem;
+  }
+  .rover-123-item {
+    width: auto;
+  }
+  .rover-mobile-hero-container {
+    flex-direction: column;
+  }
+  .nav-bar .dropdown .dropdown-content {
+    position: static;
+    width: 100%;
+    display: none;
+  }
+
+  .nav-bar .dropdown button {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown-content .dc-section a {
+    display: block;
+  }
+}
