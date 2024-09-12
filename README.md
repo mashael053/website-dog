@@ -2,7 +2,7 @@
 
 Languages used:
 
-HTML - CSS = JavaScript
+HTML - CSS - JavaScript
 
 
 url website :
